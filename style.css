@@ -1,7 +1,51 @@
 :root {
   --primary-font: "Outfit";
+  --bg-color: hsl(212, 45%, 89%);
+  --header-color: hsl(216, 15%, 48%);
+  --h3-content-font-color: hsl(218, 44%, 22%);
+  --content-color: hsl(216, 15%, 48%);
+
+  --h3-font-size: 1.3em;
+  --content-font-size: 0.9em;
 }
 
 body {
   font-family: var(--primary-font);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.qr-container {
+  width: 270px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.qr-img img {
+  width: 270px;
+  border-radius: 10px;
+}
+
+.qr-content p {
+  color: var(--content-color);
+  font-size: var(--content-font-size);
+  margin: 0 15 20 0;
+  font-weight: 400;
+}
+
+.qr-content h3 {
+  color: var(--h3-content-font-color);
+  font-size: var(--h3-font-size);
+  margin: 25 0 15 0;
+  font-weight: 800;
+}
+
+footer {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
 }
