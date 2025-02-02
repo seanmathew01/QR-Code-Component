@@ -12,13 +12,13 @@
 body {
   font-family: var(--primary-font);
   background-color: var(--bg-color);
-  margin: 0;
+  margin: 180px 0;
   padding: 0;
 }
 
 main {
   width: 270px;
-  margin: 100px auto;
+  margin: 0 auto;
   background-color: white;
   padding: 15px;
   border-radius: 15px;
@@ -46,6 +46,6 @@ main {
 
 footer {
   width: fit-content;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: center;
 }
