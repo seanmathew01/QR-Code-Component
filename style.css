@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-.qr-container {
+main {
   width: 270px;
   margin: 100px auto;
   background-color: white;
